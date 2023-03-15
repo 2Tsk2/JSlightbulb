@@ -21,9 +21,20 @@ img{
    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
    background-color: #939696;
    border-radius: 5px;
+   border: #2f3030;
+   
 }
 
 .button:active{
     transform: translateY(10px);
     box-shadow: 0px 0px;
+}
+
+/* Put the cite text on the very bottom of the page*/
+cite{
+    position: absolute;
+    margin-bottom: 3px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
